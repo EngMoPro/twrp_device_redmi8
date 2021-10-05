@@ -1,1 +1,1 @@
-# twrp_device_redmi8
+this twrp device tree for redmi8 olive 
