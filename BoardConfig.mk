@@ -16,6 +16,6 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/olive
+DEVICE_PATH := device/xiaomi/olive
 
 
