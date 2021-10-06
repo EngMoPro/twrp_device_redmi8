@@ -46,6 +46,10 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_BOARD_PLATFORM := msm8937
 
 
+# Qualcomm
+TARGET_RECOVERY_QCOM_RTC_FIX := true
+BOARD_USES_QCOM_HARDWARE := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0 androidboot.hardware=qcom user_debug=30 msm_rtb.filter=0x237 ehci-hcd.park=3 androidboo>
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
