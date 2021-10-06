@@ -18,6 +18,8 @@
 
 DEVICE_PATH := device/xiaomi/olive
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := olive
 
 # Architecture
 TARGET_ARCH := arm64
