@@ -18,6 +18,14 @@
 
 DEVICE_PATH := device/xiaomi/olive
 
+
+#Security patch level
+PLATFORM_SECURITY_PATCH := 2021-10-6
+VENDOR_SECURITY_PATCH := 2021-10-6
+PLATFORM_VERSION := 16.1.0
+
+
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := olive
 
