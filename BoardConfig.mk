@@ -19,6 +19,11 @@
 DEVICE_PATH := device/xiaomi/olive
 
 
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
+
+
 #Security patch level
 PLATFORM_SECURITY_PATCH := 2021-10-6
 VENDOR_SECURITY_PATCH := 2021-10-6
